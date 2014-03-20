@@ -17,7 +17,7 @@ function loggy(message, type) {
     "#77b300"  // success - type 3
   ];
   
-  var type_str = ["ERROR","WARNING","INFO","SUCCESS"];
+  var type_str = ["ERROR  ","WARNING","INFO   ","SUCCESS"];
   
   var str = [
     "%c " + type_str[type] + " %c" + message + " ",
